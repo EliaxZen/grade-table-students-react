@@ -1,10 +1,11 @@
 
 import { GradeTable } from './../components/GradeTable';
+import { students } from '@/data/students';
 
 const Page = () => {
   return (
-    <div>
-      <GradeTable/>
+    <div className='container mx-auto'>
+      <GradeTable students={students}/>
     </div>
   )
 }
